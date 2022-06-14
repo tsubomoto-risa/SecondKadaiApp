@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		EE4F126F2858322700EC79F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4F126D2858322700EC79F9 /* Main.storyboard */; };
 		EE4F12712858322900EC79F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4F12702858322900EC79F9 /* Assets.xcassets */; };
 		EE4F12742858322900EC79F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4F12722858322900EC79F9 /* LaunchScreen.storyboard */; };
+		EE4F127C2858343E00EC79F9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F127B2858343E00EC79F9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE4F12702858322900EC79F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4F12732858322900EC79F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE4F12752858322900EC79F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4F127B2858343E00EC79F9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EE4F12672858322700EC79F9 /* AppDelegate.swift */,
 				EE4F12692858322700EC79F9 /* SceneDelegate.swift */,
 				EE4F126B2858322700EC79F9 /* ViewController.swift */,
+				EE4F127B2858343E00EC79F9 /* ResultViewController.swift */,
 				EE4F126D2858322700EC79F9 /* Main.storyboard */,
 				EE4F12702858322900EC79F9 /* Assets.xcassets */,
 				EE4F12722858322900EC79F9 /* LaunchScreen.storyboard */,
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = EE4F125F2858322700EC79F9 /* Build configuration list for PBXProject "SecondKadaiApp" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +144,7 @@
 				EE4F126C2858322700EC79F9 /* ViewController.swift in Sources */,
 				EE4F12682858322700EC79F9 /* AppDelegate.swift in Sources */,
 				EE4F126A2858322700EC79F9 /* SceneDelegate.swift in Sources */,
+				EE4F127C2858343E00EC79F9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
